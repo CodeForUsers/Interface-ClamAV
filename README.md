@@ -3,6 +3,8 @@
 ## Description
 - ClamAV GUI is an interface for the use of ClamAV software, it feeds on ClamAV commands to perform basic and simple scans of Windows operating system.
 
+  ![Logo](InterfaceForClamAV/src/img/CP.png)
+
 ### Features
 - Scan by unit or route.
 - Option to select the maximum size of files in MB.
