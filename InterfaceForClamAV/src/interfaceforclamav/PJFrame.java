@@ -13,7 +13,8 @@ import javax.swing.text.StyledDocument;
 
 /**
  *
- * @author David C.G. 
+ * @author BlueFox
+ * @GitHub github.com/CodeForUsers
  */
 public class PJFrame extends javax.swing.JFrame {
 
@@ -307,7 +308,7 @@ public class PJFrame extends javax.swing.JFrame {
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "ClamAV GUI\n" + "Version: 2.0 - 101224\n" + "Author: David C.G.\n" + " 2024-2025 ClamAV Interface Proyect\n\n"+"github.com/CodeForUsers", "About", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, "ClamAV GUI\n" + "Version: 2.0 - 101224\n" + "Author: BlueFox (DCG)\n" + " 2024-2025 ClamAV Interface Proyect\n\n"+"github.com/CodeForUsers", "About", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void deletevirusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deletevirusActionPerformed
