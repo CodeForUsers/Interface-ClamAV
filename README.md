@@ -18,7 +18,7 @@
 - I recommend a computer with at least 8GB RAM.
 
 ### Installation
-- Install the .exe file [link](MZP)
+- Install the .exe file [link](https://github.com/CodeForUsers/Proyecto-GUI-ClamAV/raw/refs/heads/main/Install/Interface_ClamAV2.0_build101224.exe)
 - Run as administrator.
 - Once installed, options < create database and update database.
 
