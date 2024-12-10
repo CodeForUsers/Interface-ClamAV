@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package interfaceforclamav;
-
 /**
  *
- * @author David
+ * @author BlueFox
+ * @GitHub github.com/CodeForUsers
  */
+
+package interfaceforclamav;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;

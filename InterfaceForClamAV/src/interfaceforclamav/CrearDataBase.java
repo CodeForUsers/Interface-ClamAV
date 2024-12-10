@@ -1,3 +1,10 @@
+/**
+ *
+ * @author BlueFox
+ * @GitHub github.com/CodeForUsers
+ */
+
+
 package interfaceforclamav;
 
 import java.io.File;
@@ -14,7 +21,12 @@ public class CrearDataBase {
                            "LogFileMaxSize 2M\n" +
                            "LogTime yes\n" +
                            "# Uncomment the following line to enable logging of executed commands.\n" +
-                           "# Debug yes\n";
+                           "# Debug yes\n"+
+                           "DatabaseMirror database.clamav.net\n"+
+                           "DatabaseMirror db.eu.clamav.net\n"+
+                           "DatabaseMirror db.us.clamav.net\n"+
+                           "Checks 12\n"+
+                           "SafeBrowsing yes\n";
 
         // Crear la carpeta database si no existe
         crearCarpetaDatabase();
@@ -29,10 +41,11 @@ public class CrearDataBase {
 
         // Crear el archivo freshclam.conf dentro del directorio existente
         File archivo = new File(directorio, "freshclam.conf");
+        File archivo2 = new File(directorio, "clamd.conf");
 
         try {
             // Crear y escribir en el archivo
-            if (archivo.createNewFile()) {
+            if (archivo.createNewFile()&& archivo2.createNewFile()) {
                 System.out.println("Archivo creado: " + archivo.getAbsolutePath());
             } else {
                 JOptionPane.showMessageDialog(null,"Ya existe la base de datos", "Error", JOptionPane.ERROR_MESSAGE);
