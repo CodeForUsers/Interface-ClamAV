@@ -29,5 +29,8 @@ ACTUAL 2.0 - 101224
 - First public release.
 
 ### License
-- This work © 2024 by BlueFox is licensed under CC BY-NC 4.0 
+- This work © 2024 by BlueFox is licensed under CC BY-NC 4.0
+
+
+Sorry in advance for possible mistakes, this is my first project here. :smile:
 
