@@ -18,7 +18,7 @@
 - I recommend a computer with at least 8GB RAM.
 
 ### Installation
-- Install the .exe file [link]()
+- Install the .exe file [link](MZP)
 - Run as administrator.
 - Once installed, options < create database and update database.
 
